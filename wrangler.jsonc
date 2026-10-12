@@ -1,0 +1,14 @@
+// Cloudflare config for this static site. No Worker code is needed:
+// every file in ./public is served as-is, and public/index.html is the homepage.
+//
+// There is deliberately no "account_id" here, so the site deploys to
+// whichever Cloudflare account is logged in. See DEPLOY.md.
+{
+  // Becomes the site address: https://you-me-travel.<your-subdomain>.workers.dev
+  // If you rename it, the Worker name in the Cloudflare dashboard must match.
+  "name": "you-me-travel",
+  "compatibility_date": "2026-10-12",
+  "assets": {
+    "directory": "./public"
+  }
+}

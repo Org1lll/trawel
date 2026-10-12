@@ -1,0 +1,3 @@
+# Local cache created by Wrangler (Cloudflare CLI) - not part of the site
+.wrangler/
+node_modules/
